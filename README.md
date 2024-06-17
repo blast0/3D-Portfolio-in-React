@@ -3,7 +3,7 @@
 # Build and Deploy a Fantastic 3D Portfolio Website with Three.js and React.js
 
 ![Hero Screen](./hero.gif)
-![Footer Screen](./hero.gif)
+![Footer Screen](./footer.gif)
 
 - ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model
 - React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React
