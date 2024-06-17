@@ -34,11 +34,15 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Work Exp",
   },
   {
     id: "skills",
     title: "Skills",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -201,20 +205,20 @@ const projects = [
     view_live_link: "https://bishalkumar-sde.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "HTML CSS JS Portfolio",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
