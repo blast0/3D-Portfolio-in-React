@@ -19,7 +19,8 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  // carrent,
+  nextportfolio,
   jobit,
   tripguide,
   threejs,
@@ -34,6 +35,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "skills",
+    title: "Skills",
   },
   {
     id: "contact",
@@ -174,25 +179,26 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "NextJs Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Nextjs Portfolio website with Simple and Clean Design, Dark and Light Theme ,Mobile Responsiveness, Chat System - tawk.to, Message by gmail - nodemailer",
     tags: [
       {
-        name: "react",
+        name: "NextJs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind Css",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: nextportfolio,
+    source_code_link: "https://github.com/blast0/Nextjs-Portfolio",
+    view_live_link: "https://bishalkumar-sde.netlify.app/",
   },
   {
     name: "Job IT",

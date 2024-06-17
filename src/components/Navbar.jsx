@@ -61,6 +61,21 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li
+            key={"CV"}
+            className={`${
+              true ? "text-white" : "text-secondary"
+            } hover:text-white text-[18px] font-medium cursor-pointer`}
+          >
+            <a
+              href={
+                "https://drive.google.com/file/d/1QrrNKu3zKYQRPYjDAadDRutLkpOIVbUM/view?usp=sharing"
+              }
+              target="_blank"
+            >
+              {"Download CV"}
+            </a>
+          </li>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
