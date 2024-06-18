@@ -26,7 +26,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import nextportfolio from "./ss.gif";
+import nextportfolio from "./nextjsportfolio.gif";
+import htmlcssportfolio from "./htmlcssportfolio.gif";
+import fabricimagemaker from "./fabricimagemaker.gif";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -63,4 +65,6 @@ export {
   tripguide,
   nextjs,
   nextportfolio,
+  htmlcssportfolio,
+  fabricimagemaker,
 };

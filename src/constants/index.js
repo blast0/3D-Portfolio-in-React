@@ -14,17 +14,19 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
+  // docker,
+  // meta,
   starbucks,
   tesla,
-  shopify,
+  // shopify,
   // carrent,
   nextportfolio,
-  jobit,
+  htmlcssportfolio,
+  // jobit,
   tripguide,
   threejs,
   nextjs,
+  fabricimagemaker,
 } from "../assets";
 
 export const navLinks = [
@@ -222,8 +224,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: htmlcssportfolio,
+    source_code_link: "https://github.com/blast0/Myportfolio",
+    view_live_link: "https://blast0.github.io/Myportfolio/",
   },
   {
     name: "Trip Guide",
@@ -243,8 +246,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: fabricimagemaker,
+    source_code_link:
+      "https://github.com/blast0/Image-Maker-Tool-React-Fabricjs",
+    view_live_link: "https://myimagemaker.netlify.app/",
   },
 ];
 
