@@ -63,9 +63,7 @@ const Navbar = () => {
           ))}
           <li
             key={"CV"}
-            className={`${
-              true ? "text-white" : "text-secondary"
-            } hover:text-white text-[18px] font-medium cursor-pointer`}
+            className={`${"text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
           >
             <a
               href={
